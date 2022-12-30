@@ -5,7 +5,7 @@ import "./Players.css"
 export const PlayersList = () => {
   return (
     <>
-      <h1 className="title">Jugadores</h1>
+      <h1 className="title">Jugadores Defensores</h1>
       <div className='players'>
         <a href='#'>
           <div className='player'>
