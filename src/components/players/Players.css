@@ -1,0 +1,14 @@
+.title{
+    font-size: 2.4rem;
+    padding: 10rem 0 0 0 ;
+    color:rgb(5, 9, 236 );
+}
+
+.players{
+    padding: 5rem 2 rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 1rem;
+    box-sizing: border-box ;
+}
