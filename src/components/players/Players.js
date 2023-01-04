@@ -7,24 +7,66 @@ export const PlayersList = () => {
     <>
       <h1 className="title">Planteles Superiores</h1>
       <div className='players'>
-        <a href='#'>
-          <div className='player'>
-            <img src={IMG} alt="" width="200" />
+        <div className='player'>
+          <a href='#'>
+            <div className='player_imag'>
+              <img src={IMG} alt="" width="200" />
+            </div>
+          </a>
+          <div className='player_footer'>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
-        </a>
-        <div className='player_footer'>
-          <h1>Title</h1>
-          <p>Categoria</p>
-          <p className='price'>32</p>
+          <div className='buttom'>
+            <button className='btn'>
+              Añadir
+            </button>
+            <div>
+              <a href='#' className='btn'>vista</a>
+            </div>
+          </div>
         </div>
-        <div className='buttom'>
-          <buttom className='btn'>
-            Añadir
-          </buttom>
-          <div>
-            <a href='#' className='btn'>vista</a>
+        <div className='player'>
+          <a href='#'>
+            <div className='player_imag'>
+              <img src={IMG} alt="" width="200" />
+            </div>
+          </a>
+          <div className='player_footer'>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
+          <div className='buttom'>
+            <button className='btn'>
+              Añadir
+            </button>
+            <div>
+              <a href='#' className='btn'>vista</a>
+            </div>
+          </div>
+        </div>
 
+        <div className='player'>
+          <a href='#'>
+            <div className='player_imag'>
+              <img src={IMG} alt="" width="200" />
+            </div>
+          </a>
+          <div className='player_footer'>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
+          </div>
+          <div className='buttom'>
+            <button className='btn'>
+              Añadir
+            </button>
+            <div>
+              <a href='#' className='btn'>vista</a>
+            </div>
+          </div>
         </div>
 
       </div>
