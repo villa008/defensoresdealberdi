@@ -5,16 +5,17 @@
 }
 
 .players {
-    padding: 5rem 2 rem;
+    padding: 5rem 1rem;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-    gap: 3rem 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3rem 2rem;
     box-sizing: border-box;
 }
 
 .player {
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     box-shadow: 1px 10px 2px rgba(0, 0, 0, .2);
@@ -58,7 +59,9 @@
     height: 45px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 1rem 2rem;
+    gap: 1rem 3rem;
+    padding: 0 1rem;
+    margin: 1rem;
 }
 
 .buttom .btn {
@@ -72,7 +75,7 @@
     background-color: blue;
     max-width: 250px;
     width: 100%;
-    margin: 0 auto;
+    
     font-size: 1.5rem;
     color: white;
     font-weight: 600;

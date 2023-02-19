@@ -1,37 +1,38 @@
 import React from 'react'
 import escudo from "../../images/escudo/escudo.jpg"
 import "./header.css"
+import {Link} from "react-router-dom"
 
 export const Header = () => {
     return (
         <header>
             
-            <a href='#'>
+            <Link to='Inicio'>
                 <div className= "logo">
                     <img src={escudo} alt="logo" width="130"/>
                 </div>
-            </a>
+            </Link>
             <ul>
                 <li>
-                    <a href='#'>Club</a>
+                    <Link to='Inicio'>Club</Link>
                 </li>
                 <li>
-                    <a href='#'>Futbol</a>
+                    <Link to='#'>Futbol</Link>
                 </li>
                 <li>
-                    <a href='#'>Primera</a>
+                    <Link to='Primera'>Primera</Link>
                 </li>
                 <li>
-                    <a href='#'>Juveniles</a>
+                    <Link to='Juveniles'>Juveniles</Link>
                 </li>
                 <li>
-                    <a href='#'>Infantiles</a>
+                    <Link to='Infantiles'>Infantiles</Link>
                 </li>
                 <li>
-                    <a href='#'>Archivo</a>
+                    <Link to='#'>Archivo</Link>
                 </li>
                 <li>
-                    <a href='#'>Contacto</a>
+                    <Link to='#'>Contacto</Link>
                 </li>
             </ul>
             <div className='cart'>

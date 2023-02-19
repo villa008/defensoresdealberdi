@@ -1,8 +1,8 @@
 import React from 'react'
+import IMG from "../../images/Players/Infantiles/img00.jpg"
 import "./Players.css"
-import Images from '../../imgprimera/Images'
 
-export const PlayersList = () => {
+export const PlayersInfantiles = () => {
   return (
     <>
       <h1 className="title">Planteles Superiores</h1>
@@ -10,14 +10,33 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Nombre</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
+          </div>
+          <div className='buttom'>
+            <button className='btn'>
+              Añadir
+            </button>
+            <div>
+              <a href='#' className='btn'>vista</a>
+            </div>
+          </div>
+        </div>
+        <div className='player'>
+          <a href='#'>
+            <div className='player_imag'>
+              <img src={IMG} alt="" width="200" />
+            </div>
+          </a>
+          <div className='player_footer'>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -32,14 +51,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -54,14 +72,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -76,14 +93,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -98,14 +114,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -120,14 +135,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -142,14 +156,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -164,14 +177,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -186,14 +198,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -208,14 +219,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -230,14 +240,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -252,14 +261,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -274,14 +282,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -296,14 +303,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -318,14 +324,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -340,14 +345,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -362,14 +366,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -384,14 +387,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -406,14 +408,33 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
+          </div>
+          <div className='buttom'>
+            <button className='btn'>
+              Añadir
+            </button>
+            <div>
+              <a href='#' className='btn'>vista</a>
+            </div>
+          </div>
+        </div>
+        <div className='player'>
+          <a href='#'>
+            <div className='player_imag'>
+              <img src={IMG} alt="" width="200" />
+            </div>
+          </a>
+          <div className='player_footer'>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -428,14 +449,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -450,14 +470,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -472,14 +491,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -494,14 +512,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -516,14 +533,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -538,14 +554,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -560,14 +575,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -582,14 +596,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -604,14 +617,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -626,14 +638,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -648,14 +659,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -670,14 +680,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -692,14 +701,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -714,14 +722,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -736,14 +743,13 @@ export const PlayersList = () => {
         <div className='player'>
           <a href='#'>
             <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
+              <img src={IMG} alt="" width="200" />
             </div>
           </a>
           <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
+            <h1>Title</h1>
+            <p>Categoria</p>
+            <p className='price'>32</p>
           </div>
           <div className='buttom'>
             <button className='btn'>
@@ -754,143 +760,6 @@ export const PlayersList = () => {
             </div>
           </div>
         </div>
-
-        <div className='player'>
-          <a href='#'>
-            <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
-            </div>
-          </a>
-          <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
-          </div>
-          <div className='buttom'>
-            <button className='btn'>
-              Añadir
-            </button>
-            <div>
-              <a href='#' className='btn'>vista</a>
-            </div>
-          </div>
-        </div>
-
-        <div className='player'>
-          <a href='#'>
-            <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
-            </div>
-          </a>
-          <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
-          </div>
-          <div className='buttom'>
-            <button className='btn'>
-              Añadir
-            </button>
-            <div>
-              <a href='#' className='btn'>vista</a>
-            </div>
-          </div>
-        </div>
-
-        <div className='player'>
-          <a href='#'>
-            <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
-            </div>
-          </a>
-          <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
-          </div>
-          <div className='buttom'>
-            <button className='btn'>
-              Añadir
-            </button>
-            <div>
-              <a href='#' className='btn'>vista</a>
-            </div>
-          </div>
-        </div>
-
-        <div className='player'>
-          <a href='#'>
-            <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
-            </div>
-          </a>
-          <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
-          </div>
-          <div className='buttom'>
-            <button className='btn'>
-              Añadir
-            </button>
-            <div>
-              <a href='#' className='btn'>vista</a>
-            </div>
-          </div>
-        </div>
-
-        <div className='player'>
-          <a href='#'>
-            <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
-            </div>
-          </a>
-          <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
-          </div>
-          <div className='buttom'>
-            <button className='btn'>
-              Añadir
-            </button>
-            <div>
-              <a href='#' className='btn'>vista</a>
-            </div>
-          </div>
-        </div>
-
-        <div className='player'>
-          <a href='#'>
-            <div className='player_imag'>
-              <img src={Images[0].img} alt="" width="200" />
-            </div>
-          </a>
-          <div className='player_footer'>
-            <h1>{Images[0].Nombre}</h1>
-            <p>{Images[0].Nacimiento}</p>
-            <p>{Images[0].Posicion}</p>
-            <p className='price'>ver aca q poner</p>
-          </div>
-          <div className='buttom'>
-            <button className='btn'>
-              Añadir
-            </button>
-            <div>
-              <a href='#' className='btn'>vista</a>
-            </div>
-          </div>
-        </div>
-        
-
-  
-
- 
 
       </div>
 
