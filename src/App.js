@@ -4,7 +4,7 @@ import 'boxicons';
 import { Footer } from './components/Footer/Footer';
 import { Footer2 } from './components/Footer/Footer2';
 import { BrowserRouter as Router } from "react-router-dom";
-import {Ventanas} from "./components/Ventanas";
+import { Ventanas } from "./components/Ventanas";
 
 
 function App() {
@@ -13,8 +13,7 @@ function App() {
 
       <Router>
         <Header />
-        <Ventanas/>
-
+        <Ventanas />
       </Router>
 
 

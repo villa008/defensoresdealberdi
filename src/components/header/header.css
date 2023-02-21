@@ -1,5 +1,5 @@
 header {
-    width: 97%;
+    width: 100%;
     min-height: 100px;
     max-width: 1530px;
     overflow: hidden;
@@ -7,10 +7,11 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    position: fixed;
+    /*position: fixed;*/
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 5px 10px rgb(5, 9, 236);
+    
 
 }
 
@@ -24,7 +25,7 @@ a:hover {
     color: red;
 }
 
-li {
+li  {
     list-style: none;
 }
 
@@ -38,7 +39,7 @@ header ul li {
     padding: 0 1rem;
 }
 
-header ul li a {
+header ul li  {
     font-weight: bold;
 }
 
